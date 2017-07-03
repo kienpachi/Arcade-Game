@@ -1,0 +1,35 @@
+body {
+	text-align: center;
+	font-family: cursive;
+	color: dodgerblue;
+	margin: 0 auto;
+}
+#win {
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	width: 100vw;
+	height: 95vh;
+	display: none;
+}
+#win h2 {
+	margin-top: 45vh;
+	font-weight: 100;
+	font-size: 4vh;
+	color: #fff;
+}
+#tryAgain {
+	padding: 1vh 2vh;
+	border: 3px solid rgba(255, 255, 255, 0.2);
+	font-size: 2vh;
+	font-weight: bold;
+	background-color: green;
+	color: #fff;
+	cursor: pointer;
+	text-decoration: none;
+}
+#tryAgain:hover {
+	background-color: darkgreen;
+}
+.display-block {
+	display: block !important;
+}
